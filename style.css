@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(23, 23, 26);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container h1 {
+    font-size: 40px;
+    color: rgb(255, 208, 0);
+}
+
+.container h1 span {
+   background: #000;
+   padding: 3px;
+   border: 3px solid  rgb(255, 208, 0);
+   border-radius: 7px;
+}
+
+.wrapper  {
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(19, 16, 16);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 300px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.row button {
+    margin-top: 15px;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px rgba(255, 254, 254, 0.89);
+}
+
+.row button:hover {
+    background-color: orange;
+    color: whitesmoke;
+    box-shadow: 0px 0px 15px rgba(231, 105, 1, 0.89);
+}
+
+.row input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    outline: none;
+}
+
